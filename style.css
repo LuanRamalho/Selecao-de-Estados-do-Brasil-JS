@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: cyan;
+}
+
+h1 {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+div {
+    margin: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#flag-container {
+    margin-top: 20px;
+}
+
+#flag-container img {
+    max-width: 100%;
+    height: auto;
+}

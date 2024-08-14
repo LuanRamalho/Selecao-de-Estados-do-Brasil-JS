@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandeiras dos Estados do Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bandeiras dos Estados do Brasil</h1>
+    <div>
+        <label for="region-select">Selecione a Região:</label>
+        <select id="region-select" onchange="updateStates()">
+            <option value="">Selecione</option>
+            <option value="norte">Norte</option>
+            <option value="nordeste">Nordeste</option>
+            <option value="centro-oeste">Centro-Oeste</option>
+            <option value="sudeste">Sudeste</option>
+            <option value="sul">Sul</option>
+        </select>
+    </div>
+    <div>
+        <label for="state-select">Selecione o Estado:</label>
+        <select id="state-select" onchange="displayFlag()">
+            <option value="">Selecione a Região Primeiro</option>
+        </select>
+    </div>
+    <div id="flag-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
